@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Helvetica;
+}
+
+span {
+    background-color: #DF6768;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+}
+
+#add {
+    color: #94C380;
+    height: 20px;
+}
+
+#xBox {
+    color: rgb(253, 173, 82);
+    margin-right: 25px;
+}
+
+#skill {
+    background-color: #94C380;
+    color: white;
+    height: 30px;
+    padding: 6px 60px 6px 60px;
+}
+
+#emptyBox, #add {
+    border: 2px solid #94C380;
+    height: 30px;
+}
+
+#emptyBox {
+    margin-right: 15px;
+    width: 200px;
+}
+
+#square, #xBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+#skill, #xBox {
+    font-weight: 500;
+}
